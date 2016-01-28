@@ -1,0 +1,49 @@
+@charset "utf-8";
+@import url("reset.css");
+html,body{font-family:"微軟正黑體"; background-color:#000; font-size:13px; color:#FFF; font-weight:bold; margin:0; padding:0;}
+/*選單*/
+ul.tabs { width:100%; height:40px;}
+ul.tabs li {
+		float: left;
+		height: 40px;
+		color:#FFF;
+		font-size:14px;
+
+		position: relative;
+		margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+		background:url(../images/web_inall.png) -370px -400px;
+	}
+ul.tabs li a { width:162px; height:40px; line-height:38px; text-align:center; color:#977b6c; text-decoration: none; display: block;}
+ul.tabs li a:hover { color:#FFF;}
+ul.tabs li.active  { background:url(../images/web_inall.png) -200px -400px; display: block;}
+ul.tabs li.active a{ color:#FFF;}
+
+/*選單增加tirp*/
+ul.tabs li.tab1 a span,ul.tabs li.tab4 a span{ display:none;}
+ul.tabs li.tab1 a:hover span.tab1tirp,ul.tabs li.tab4 a:hover span.tab4tirp{ position:absolute; top:-30px; left:10%; padding:2px 5px; line-height:20px; font-size:12px; color:#e3cd95; background:#330000; z-index:9999; border-radius:5px; -webkit-border-radius:5px; box-shadow: 0px 1px 2px #000; display:block;}
+
+/*搜尋表單*/
+span a{text-decoration: none !important;color: #fcf9c2;letter-spacing: 2px;}
+span a:hover{color: #a06b1f;}
+.btnsearch {width:100px;height: 45px;}
+.btnsearch a {background: url(../images/web_btn.png) -160px -240px;width: 100px;height: 45px;display: block;}
+.btnsearch a:hover {background: url(../images/web_btn.png) -159px -239px;width: 100px;height: 45px;display: block;}
+ol p{text-align: center;line-height: 50px;font-size: 14px;}
+
+/*輸出表單*/
+.bettingtabbox{width: 790px;height: 20px;font-size: 16px;font-weight: bold;line-height: 20px;padding: 12px 30px 10px 10px;margin: 0 auto;
+  background: #93804E;border: solid 2px #93804E;border-radius: 8px 8px 0 0;}
+.bettingtabinfo_box{width: 810px;line-height: 25px;padding: 10px 10px;margin: 0 auto;border: solid 2px #93804E;border-radius: 0 0 8px 8px;}
+.bettingtabtitle{color: #fcf9c2!important;margin-bottom: 10px;float: left;}
+.bettingtabinfo_box span {font-weight: bold;color: #F00;}
+.bettingtab1{background-color: #330000;border: solid 1px #a06b1f;}
+.bettingtab1 tr td{  border: solid 2px #93804E;  padding: 0 0 0 10px!important;}
+.bettingtab1tit{padding: 12px 30px 10px 30px;  margin: 0 auto;  background: #93804E;  border: solid 2px #93804E;}
+.bettingreen{color:#05860C!important;}
+.bettingdetlbtn a{background: url(../images/web_btn.png) -325px -58px;width: 40px;height: 30px;display: block;text-decoration: none!important;color: #fff;}
+.bettingdetlbtn a:hover{background: url(../images/web_btn.png) -363px -58px;color: #a06b1f;width: 40px;height: 30px;display: block;}
+.bettingdetlbtn2 a{background: url(../images/web_btn.png) -441px -58px;width: 40px;height: 30px;display: block;text-decoration: none!important;color: #a06b1f;}
+.bettingdetlbtn2 a:hover{background: url(../images/web_btn.png) -403px -58px;color: #fff;width: 40px;height: 30px;display: block;}
+.bettingdetlblock{background-color:#93804E; }
+.bettingdetlblock td{padding: 20px 30px!important;}
+.bettingdetlinn{border: dashed 1px #F30;border-radius: 4px;color: #333;font-weight: bold;background: #eedea3;padding: 5px 10px;}

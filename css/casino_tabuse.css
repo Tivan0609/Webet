@@ -1,0 +1,28 @@
+/*頁籤*/
+.abgne_tab {width: 773px !important;height: 430px !important;margin: 0 5px !important;}
+ul.tabs { width:100% !important; height:40px !important;}
+ul.tabs li {
+    float: left !important;
+    height: 40px !important;
+    color:#FFF !important;
+    font-size:14px !important;
+    overflow: hidden !important;
+    position: relative !important;
+    margin-bottom: -1px !important;  /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+    background:url(../images/web_inall.png) -370px -400px ; 
+  }
+ul.tabs li a { width:162px; height:40px; line-height:38px; text-align:center; color:#977b6c; text-decoration: none; display: block;}
+ul.tabs li a:hover { color:#FFF;}
+ul.tabs li.active  { background:url(../images/web_inall.png) -200px -400px; display: block;}
+ul.tabs li.active a{ color:#FFF;}
+.tab_container {
+    clear: left;
+    width: 100%;
+    border-top: none;
+  }
+.tab_content {padding: 10px 35px;width: 90%;}
+div.tab_container .tab_content h2 { margin: 0 0 20px;}
+.right_boxbgci-4{display: block;height: auto;width: 773px;float: left;background:url(../images/right_boxbg2.png) center repeat-y;}
+.right_boxbgci-5{height: 20px;background: url(../images/right_boxbg3.png) bottom repeat-y;float: left;width: 773px;}
+.notopen{float: left;height: 40px;color: #977b6c;font-size: 14px;overflow: hidden;position: relative;margin-bottom: -1px;text-align: center;
+    background: url(../images/web_inall.png) -370px -400px;width: 162px;font-family: 微軟正黑體;font-size: 14px;font-weight: bold;line-height: 38px;}

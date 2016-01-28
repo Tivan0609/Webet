@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.event {
+	width: 900px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.t1 {
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #FC0;
+}

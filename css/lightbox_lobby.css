@@ -1,0 +1,73 @@
+/* lightbox-lobby */
+.off_box{ width:31px; height:31px; margin:22px 35px 0 0; float:right;}
+.off_box a{ width:31px; height:31px; background:url(../images/web_inall.png) -340px -60px; display:block;}
+.off_box a:hover{ background:url(../images/web_inall.png) -339px -59px;}
+.l_b_lobbybg{ width:984px; height:786px; background:url(../images/lobby/lobbybg.png) no-repeat; margin:5% auto 0 auto;padding: 13px 13px 13px 13px;position: relative;}
+.runningbar{width: 660px;height: 40px;background-color: #430100;font-size: 13px;line-height: 40px;padding: 0 15px;overflow: hidden;
+	display: block;position: absolute;top: 30px;left: 233px;border-radius: 15px;}
+.lobby_member{font-size: 14px;color: #fff;    font-weight: 100;    padding-left: 7px;}
+.lobbymenu li{width: 231px;	height: 73px;	background: url(../images/lobby/menubtnon.png) no-repeat;}
+
+.lobby_tab { clear:left; width:100%; height:430px;margin-left: -8px;position: relative;}
+.lobby_tab ul.tabs { width:229px; height:auto;margin-top: 20px;}
+.lobby_tab ul.tabs li {
+		float: left;
+		height: 74px;
+		color:#FFF;
+		font-size:18px;
+		overflow: hidden;
+		position: relative;
+		margin-bottom: -1px;	/* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+		background:url(../images/lobby/menubtnover.png); 
+	}
+.lobby_tab ul.tabs li a { width:229px; height:74px; line-height:78px; text-align:left; color:#977b6c; text-decoration: none; display: block;padding-left: 75px;}
+.lobby_tab ul.tabs li a:hover { background:url(../images/lobby/menubtnon.png)no-repeat; }
+.lobby_tab ul.tabs li.active  { background:url(../images/lobby/menubtnon.png) no-repeat; display: block;}
+.lobby_tab ul.tabs li.active a{ font-size: 18px;color: #fff;
+    text-shadow:1px 2px 2px #000;}
+.lobby_tab div.tab_container {position: absolute;right: 27px;top:-76px;width: 728px;height: 679px;
+	background: url(../images/lobby/contentbg.png) no-repeat;border-top: none;}
+.lobby_tab div.tab_container .tab_content { padding: 10px 0;}
+.lobby_tab div.tab_container .tab_content h2 { margin: 0 0 20px;}
+.lobby_tab div.tab_contxt{ width:725px; height:660px; font-weight:normal; padding:0 20px; line-height:25px;overflow: hidden;}
+.lobby_tab div.tab_contxt ol{ list-style-type:decimal !important; padding:0 5px;}
+
+/*gamelist*/
+.gamelist{width: 668px;}
+.gamedivline{width: 682px;height: 151px;padding: 0 0 5px 10px;}
+.pic_box { width:116px; height:109px; float:left; margin:0 9px 10px 8px; display:block;}
+.pic_box .pic{ width:116px; height:109px; border:solid 1px #000; border-radius:6px; box-shadow:2px 2px 4px #000; margin:8px 0 0 0; float:right; display:block; overflow:hidden; position: relative;}
+.pic_box .pic img{ width:116px; height:109px; z-index:1; border-radius:5px; position:absolute; background:#000; cursor:pointer;}
+.pic_box .pic:hover img{ width:116px; height:109px; z-index: 1; background:#000;  border-radius:5px; position:absolute; cursor:pointer;}
+.pic_box .pic .icon_new,.pic_box .pic .icon_put,.pic_box .pic .icon_hot{ width:48px; height:45px; right:0; z-index: 9999; margin-top:-2px; background-image:url(../images/web_btn.png); position:absolute;}
+.pic_box .pic .icon_new{ background-position:-384px -3px; z-index:2; top:-2px; right:-2px;}
+.pic_box .pic .icon_put{ background-position:-439px -3px; z-index:3; top:-2px; right:-2px;}
+.pic_box .pic .icon_hot{ background-position:-435px -98px; z-index:3; top:-2px; right:-2px;}
+.pic_box .g_name{ width:122px; height:25px; font-size:14px; font-weight:600; line-height:35px; text-align:center; display:block;color:#482B07; overflow:hidden !important;}
+
+.game_login_001 span{ display: none; z-index:20;}
+.game_login_001:hover span { display:block;	position:absolute;}
+.gameblock{width:122px; height:109px;background-color: #020a11;position:absolute;z-index: 1;top:0px; left:0px;border-radius: 5px;cursor: pointer;}
+.icon03{ width:122px; height:56px; background-image:url(../images/lobby/startbtnover.png);position: absolute;z-index: 3;top: 28px;right: 2px;}
+.icon03 a{width:122px; height:56px; display:block;}
+.icon03 a:hover {background-image:url(../images/lobby/startbtnon.png);}
+
+/*mg選單*/
+.mgslebox{	padding:0 0 5px 0;color: #000;font-size: 14px;width: 673px;}
+.slebox{height: 35px;line-height: 35px;display: inline-block;padding-left: 15px;}
+.slebox a{color: #000;height: 25px;display: inline-block;line-height: 25px;text-align: center;padding: 0 8px;}
+.sleright{float: right;margin-right: 15px;}
+.mgslebox .slebox a.sletxtOK{color: #fbe49b;background-color: #706b66;}
+hr{height:1px;border:none;border-top:1px dashed #000;margin: 4px 0;}
+
+/* pager  */
+.page_box{ width:685px;margin:0 auto; display:inline-block;}
+.pager{ text-align:center; padding:10px 0;}
+.pager > div{ display:inline-block;}
+.pager > div a{ border-radius: 2px;color:#fff; width:25px; height:25px; line-height:25px; background:#A7987B; border:0px; display:block; text-decoration:none;}
+.pager > div a:hover{ background:#4b453a;}
+.pager > div a.selected{ background:#706B66;color: #fff;}
+.pager > div a.first{ border-radius:3px;}
+.pager > div a.last{ border-radius:3px;}
+.pager > div a.upon{ border-radius:3px;}
+.pager > div a.next{ border-radius:3px;}
